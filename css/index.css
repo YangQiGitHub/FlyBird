@@ -1,0 +1,61 @@
+#wrapBg{/*游戏背景*/
+	width: 343px;height: 480px; 
+	margin: 0 auto;
+	background-image:url(../img/bg.jpg);
+	position: relative;
+	top: 100px;
+	overflow: hidden;
+}
+
+#headTitle{/*开始标题*/
+	width: 236px;height: 77px;
+	background-image: url(../img/head.jpg);
+	position: absolute; left: 53px; top: 100px;
+}
+
+#headBird{/*开始标题中的小鸟*/
+	float:right;
+	margin-top: 25px;
+}
+
+#startBtn{/*开始按钮*/
+	width: 85px;height: 29px;
+	padding: 0;margin: 0;
+	background-image: url(../img/start.jpg);
+	position: absolute;left: 129px;top: 250px;
+}
+
+#grassLand1{/*草地1*/
+	height: 14px;width: 343px;
+	background-image: url(../img/banner.jpg);
+	position: absolute;top: 423px;
+}
+
+#grassLand2{/*草地2*/
+	height: 14px;width: 343px;
+	background-image: url(../img/banner.jpg);
+	position: absolute;top: 423px;left: 343px;
+}
+
+#score{
+	position:absolute;
+	left: 130px;
+	top:50px;
+	z-index: 1;
+}
+
+#score div{
+	height: 39px;
+	width: 28px;
+	float: left;
+	background-image: url(../img/0.jpg);
+	display: none;
+}
+
+#gameOver{
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	display: none;
+	z-index: 1;
+}
